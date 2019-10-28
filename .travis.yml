@@ -1,5 +1,13 @@
 dist: xenial
 
+notifications:
+  email:
+    recipients:
+      - lorenzoperez.juanmaria@gmail.com
+      - juanmarialorenzoperez@gmail.com
+    on_success: juanmarialorenzoperez@gmail.com # default: change
+    on_failure: lorenzoperez.juanmaria@gmail.com # default: always
+
 services:
   - postgresql
 addons:
